@@ -7,7 +7,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.text.Editable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -92,13 +91,17 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         Bundle bundle = new Bundle();
         FirstFragment firstFragment = new FirstFragment();
         int i;
-        for (i = 0; i < howMany; i++) {
+
+        // find a way to send multiple items at the recyclerView
+        //
+        for (i = 0; i < 2; i++) {
             allData.addAll(addData(firstName.getText(),
                     lastName.getText(),
                     email.getText(),
                     program.getText(),
                     yearOfStudy.getText()));
         }
+
         bundle.putParcelableArrayList("allData", allData);
         firstFragment.setArguments(bundle);
 
