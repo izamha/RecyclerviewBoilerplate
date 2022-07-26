@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AssignmentThree</string>
+    <string name="go_to_second_activity">Go To Activity Two</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="add_something">Add</string>
+    <string name="lets_record">Let\'s record some data!</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">E-mail Address</string>
+    <string name="program">Program(CS/IT...)</string>
+    <string name="year_of_study">Year of Study</string>
+    <string name="record_data">Record Data</string>
+    <string name="dummy_year_of_study">4</string>
+    <string name="dummy_reg_number">219000169</string>
+    <string name="dummy_program">Computer Science</string>
+    <string name="dummy_email">dummyMyEmail@gmail.com</string>
+    <string name="dummy_last_name">Izampa</string>
+    <string name="dummy_first_name">Gilbert</string>
+    <string name="number_of_items">Number of Items</string>
+    <string name="how_many">How Many?</string>
+    <string name="number_of_records_now">How many records?</string>
+    <string name="proceed">Proceed</string>
+</resources>
